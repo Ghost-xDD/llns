@@ -1,7 +1,7 @@
 import { Socials } from '@/constants';
 import Image from 'next/image';
 import React from 'react';
-
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
   return (
@@ -37,7 +37,11 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3 lg:gap-5 py-2 px-4 lg:px-8 text-center text-white cursor-pointer rounded-lg">
+        <div className=" items-center gap-3 lg:gap-5 py-2 px-4 lg:px-8 text-center text-white cursor-pointer rounded-lg text-xl block md:hidden">
+          <AiOutlineMenu />
+        </div>
+
+        <div className=" items-center gap-3 lg:gap-5 py-2 px-4 lg:px-8 text-center text-white cursor-pointer rounded-lg md:flex hidden">
           {Socials.map((social) => (
             <Image
               src={social.src}
