@@ -1,14 +1,14 @@
 import React from 'react';
-import FeaturesText from '../sub/FeaturesText';
+import DevelopersText from '../sub/DevelopersText';
 import DevelopersContent from '../sub/DevelopersContent';
 
 const Developers = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-20 mt-10"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-14 mt-10"
       style={{ transform: 'scale(0.9' }}
     >
-      <FeaturesText />
+      <DevelopersText />
       <div className="mt-10">
         <DevelopersContent />
       </div>
