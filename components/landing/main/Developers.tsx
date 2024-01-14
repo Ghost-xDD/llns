@@ -1,6 +1,6 @@
 import React from 'react';
 import FeaturesText from '../sub/FeaturesText';
-import DevelopersContent from './DevelopersContent';
+import DevelopersContent from '../sub/DevelopersContent';
 
 const Developers = () => {
   return (
