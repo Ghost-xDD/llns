@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .cursive {
   font-family: 'Cedarville Cursive', cursive;
 }
