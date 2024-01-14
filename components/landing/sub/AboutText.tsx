@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import {
   slideInFromLeft,
   slideInFromRight,
-  slideInFromBottom,
+  slideInFromTop,
 } from '@/utils/motion';
 import { SparklesIcon } from '@heroicons/react/24/solid';
 
@@ -12,7 +12,7 @@ const AboutText = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
       <motion.div
-        variants={slideInFromBottom}
+        variants={slideInFromTop}
         className="Welcome-box py-[8px] px-[7px] border border-[#06b6d4] opacity-[0.9]"
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
