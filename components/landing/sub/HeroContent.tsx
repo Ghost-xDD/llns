@@ -15,12 +15,12 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col md:flex-row items-center justify-center px-4 md:px-20 mt-12 md:mt-[120px] ml-0 md:ml-6 w-full z-[20]"
+      className="flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-14 mt-12 md:mt-[120px] ml-0 md:ml-6 w-full z-[20]"
     >
       <div className="flex flex-col gap-5 justify-center text-center md:text-start w-full h-full">
         <motion.div
           variants={slideInFromTop}
-          className="hidden sm:hidden lg:inline-flex items-center justify-center lg:justify-start bg-opacity-90 py-2 px-3 border border-[#06b6d4] rounded-full w-[30%]"
+          className="hidden sm:hidden lg:inline-flex items-center justify-center lg:justify-start bg-opacity-90 py-2 px-3 border border-[#06b6d4] rounded-full w-[32%]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">Lightlink Name Service</h1>

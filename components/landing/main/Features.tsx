@@ -4,7 +4,7 @@ import ProjectCard from '../sub/FeaturesCard';
 const Features = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-5"
+      className="flex flex-col items-center justify-center py-5 mx-[40px]"
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-700 to-cyan-500 py-5">
