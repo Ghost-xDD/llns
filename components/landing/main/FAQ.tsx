@@ -10,7 +10,7 @@ const FAQ = () => {
       style={{ transform: 'scale(0.9' }}
     >
       <FAQText />{' '}
-      <div className="mt-10">
+      <div className="mt-12">
         {faqQuestions.map((faq) => (
           <FAQContent
             key={faq.id}
