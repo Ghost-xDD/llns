@@ -31,7 +31,7 @@ const DevelopersContent = () => {
                 {feature.title}
               </h2>
 
-              <p className="w-full md:w-3/4 text-xl md:mt-5 mt-2 text-gray-400 h-[100px] mb-3">
+              <p className="w-full md:w-3/4 text-xl md:mt-5 mt-2 text-gray-400 h-[50%] mb-3">
                 {feature.description}
               </p>
             </div>

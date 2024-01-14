@@ -23,9 +23,7 @@ const AboutText = () => {
         className="text-[20px] md:text-[30px] text-gray-400 mt-[10px] text-center mb-[15px] z-30"
       >
         Welcome to LLNS – a beacon in the dynamic world of digital identity. We
-        are a decentralized name service built on the LightLink Network. We are
-        a community of developers, designers, and dreamers who believe in the
-        power of a decentralized future.
+        are a decentralized name service built on the LightLink Network.
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
