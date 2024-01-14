@@ -20,7 +20,7 @@ const HeroContent = () => {
       <div className="flex flex-col gap-5 justify-center text-center md:text-start w-full h-full">
         <motion.div
           variants={slideInFromTop}
-          className="inline-flex items-center justify-center md:justify-start bg-opacity-90 py-2 px-3 border border-[#06b6d4] rounded-full Welcome-box"
+          className="hidden sm:hidden lg:inline-flex items-center justify-center lg:justify-start bg-opacity-90 py-2 px-3 border border-[#06b6d4] rounded-full w-[30%]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">Lightlink Name Service</h1>
@@ -28,7 +28,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-4 md:gap-6 md:mt-6 mt-4 md:text-6xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto md:leading-[1.2] leading-snug"
+          className="flex flex-col gap-4 md:gap-6 md:mt-6 mt-[60px] md:text-6xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto md:leading-[1.2] leading-snug "
         >
           <span>
             Craft Unique Identities on the{' '}
