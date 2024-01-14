@@ -59,7 +59,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center my-10 md:my-0"
       >
         <Image
-          src="/planet-nft-blue.png"
+          src="/planet-nft-blue-2.png"
           alt="work icons"
           height={500}
           width={500}
