@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../sub/FeaturesCard';
+import FeaturesCard from '../sub/FeaturesCard';
 
 const Features = () => {
   return (
@@ -11,18 +11,18 @@ const Features = () => {
         Features
       </h1>
       <div className="h-full w-full flex flex-col justi md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/NextWebsite.png"
+        <FeaturesCard
+          src="/feature-1.jpg"
           title="Domain Registration"
           description="Once you register a domain, you own it forever. No need to worry about renewing your domain every year. You can also sell your domain at any time."
         />
-        <ProjectCard
-          src="/CardImage.png"
+        <FeaturesCard
+          src="/feature-2.jpg"
           title="Web3 Username"
           description="Your domain is your Web3 username. You can use it to log in to any integrated application built on LightLink, and you can also use it to receive payments from other users."
         />
-        <ProjectCard
-          src="/SpaceWebsite.png"
+        <FeaturesCard
+          src="/feature-3.jpg"
           title="Domain Marketplace"
           description="We provide a marketplace for domain names, powered by Liteflow. The marketplace is integrated into the LLNS app, so users can easily buy and sell domains with a few clicks."
         />

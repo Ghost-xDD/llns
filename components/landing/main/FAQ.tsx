@@ -6,11 +6,11 @@ import FAQText from '../sub/FAQText';
 const FAQ = () => {
   return (
     <div
-      className=" w-full items-center justify-center gap-3 h-full relative overflow-hidden pb-20 mt-10"
+      className=" w-full items-center justify-center gap-3 h-full relative overflow-hidden pb-20 mt-5"
       style={{ transform: 'scale(0.9' }}
     >
       <FAQText />{' '}
-      <div className="mt-12">
+      <div className="mt-6">
         {faqQuestions.map((faq) => (
           <FAQContent
             key={faq.id}

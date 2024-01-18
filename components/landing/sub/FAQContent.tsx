@@ -14,7 +14,7 @@ const FAQContent: React.FC<FAQProps> = ({ question, answer }) => {
 
   return (
     <>
-      <div className="mt-24 mx-auto text-black shadow rounded border-cyan-500  border w-[80%] md:w-3/4 transition-all duration-500 z-[20]">
+      <div className="mt-10 mx-auto text-black shadow rounded-2xl border-cyan-500  border w-[80%] md:w-3/4 transition-all duration-500 z-[20]">
         <div className="p-4 text-xl font-medium flex w-full">
           <div
             className={`font-semibold w-full cursor-pointer transition-all duration-500 text-gray-400`}
